@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo 3D</title>
+  </head>
+  <body>
+    <nav>
+      <img src="/assets/ustc.svg" alt="USTC Logo" height="30px" />
+      <span class="divide"></span>
+      <img
+        src="/assets/linke.svg"
+        style="transform: translateY(-5px)"
+        alt="Linke Logo"
+        height="30px"
+      />
+    </nav>
+    <div id="app">
+      <div>
+        <input id="address" placeholder="WebSocket address" type="text" />
+        <button id="start">Start</button>
+      </div>
+      <div class="main">
+        <canvas id="zdog-canvas" width="500" height="500"></canvas>
+        <div id="terminal"></div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

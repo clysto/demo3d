@@ -1,0 +1,34 @@
+body {
+  background-color: #13181a;
+}
+
+#app {
+  padding: 40px;
+}
+
+.main {
+  display: flex;
+}
+
+.xterm-viewport::-webkit-scrollbar {
+  background-color: #1d2122;
+  width: 10px;
+}
+
+.xterm-viewport::-webkit-scrollbar-thumb {
+  background: #3f3f3f;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #23292b;
+}
+
+.divide {
+  margin-left: 15px;
+  margin-right: 15px;
+  border-right: 1px solid #ffffff;
+  height: 25px;
+}
