@@ -43,7 +43,7 @@ function animate() {
   illo.rotate.y = 0;
   illo.rotate.z = 0;
   illo.rotate.x = -currentPosition[0];
-  illo.rotate.z = -currentPosition[1];
+  illo.rotate.z = currentPosition[1];
   illo.updateRenderGraph();
   requestAnimationFrame(animate);
 }
